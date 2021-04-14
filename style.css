@@ -17,11 +17,11 @@ body {
 }
 
 .heads {
-    background-image: url(assets/heads.png);
+    background-image: url(images/heads.png);
 }
 
 .tails {
-    background-image: url(/assets/tails.png);
+    background-image: url(images/tails.png);
 }
 
 .button {
