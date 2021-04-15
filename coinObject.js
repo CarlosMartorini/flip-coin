@@ -10,7 +10,7 @@ const coin = {
         let output = '';
         if (this.state === 0) {
             output = 'Heads';
-        } else if (this.state === 1) {
+        } else {
             output = 'Tails';
         }
 
@@ -22,9 +22,10 @@ const coin = {
         getContainer.appendChild(image);
         if (this.state === 0) {
             image.classList.toggle('heads');
-        } else if (this.state === 1) {
+        } else {
             image.classList.toggle('tails');
         }
+        
         return image;
     }
 };
